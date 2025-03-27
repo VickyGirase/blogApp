@@ -23,7 +23,7 @@ const HeroSection: FC = () => {
 
   return (
     <div className="h-screen w-full mt-0.5 relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-teal-950 to-purple-950 opacity-90">
+      <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-teal-950 to-purple-950 opacity-100">
         <div
           className="absolute inset-0 animate-spin-slow bg-[url('https://burst.shopifycdn.com/photos/wrtiting-tools.jpg?width=1200&format=pjpg&exif=0&iptc=0')] bg-cover bg-center opacity-25"
           style={{ mixBlendMode: "overlay" }}
