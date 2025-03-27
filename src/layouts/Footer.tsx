@@ -1,6 +1,7 @@
+import { FC } from "react";
 import { Link } from "react-router-dom";
 
-const Footer = () => {
+const Footer: FC = () => {
   return (
     <footer className="bg-gray-900  text-white justify-center items-center p-6 mt-10">
       <div className="mx-auto text-center flex justify-center items-center gap-80">

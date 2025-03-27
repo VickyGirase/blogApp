@@ -1,4 +1,6 @@
-const About = () => {
+import { FC } from "react";
+
+const About : FC = () => {
   return (
     <div className="w-full h-screen">
       <div className="h-screen py-16 px-8 bg-gray-100 text-center">

@@ -3,8 +3,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from './layouts/About';
 import Blogs from './components/Blogs';
 import Home from './layouts/Home';
+import { FC } from 'react';
 
-const App = () => {
+const App : FC = () => {
   return (
     <>
     <BrowserRouter basename='/'>
